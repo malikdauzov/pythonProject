@@ -3,6 +3,7 @@ import pandas as pd
 
 
 
+
 lst = ['robot'] * 10 # Основной код
 lst += ['human'] * 10
 random.shuffle(lst)
