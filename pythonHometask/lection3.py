@@ -52,6 +52,7 @@ print(sum_str(1, 3, 7))
 #         greater = [i for i in array[1:] if i > pivot]  # Создаем список элементов, больших пивота
 #         return quicksort(less) + [pivot] + quicksort(greater)
 
+
 # print(quicksort([7]))
 # print_operation_table(lambda x, y: x * y, 3, 3)
 def print_operation_table(operation, num_rows=9, num_columns=9):
