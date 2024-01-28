@@ -7,6 +7,7 @@
 # avg = data_frame
 # print(avg)
 
+
 import pandas as pd
 df = pd.read_csv('california_housing_train.csv')
 max_households_in_min_population = df [df['min_population'].min, ['households'].max]
