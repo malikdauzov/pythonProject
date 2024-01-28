@@ -4,6 +4,7 @@
 #     else:
 #         return b
 
+
 def merge_sort(nums):
     if len(nums) > 1:
         mid = len(nums) // 2
